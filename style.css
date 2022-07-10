@@ -68,8 +68,6 @@ p{
 .dflex{
     width: 100%;
     display: flex;
-    /* margin-top: 150px; */
-    /* margin-right: 200px; */
 
 }
 
@@ -127,39 +125,51 @@ p{
     padding-left: 35px;
 }
 
-/* .images{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    margin: 0 150px;
-    width: 100%;
-} */
-
-/* .image-container{
-    width: 
-    400px;
-} */
-
 .images{
     width: 100%;
     text-align: center;
+    margin: 100px 0;
 }
 
 .images img{
-    /* margin: 0 50px; */
+    height: 380px;
+    width: 340px;
+    border-radius: 10px;
 }
 
 .sec-img{
-    margin: 0 40px;
-    padding: 0 40px;
+    margin: 0 20px;
+    
 }
 
 .donate-zakat{
     text-align: center;
+    margin-bottom: 100px;
 }
 
 .sec-card-container{
     display: flex;
+    margin: 0 150px;
 }
+
+.sec-card{
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.9);
+    width: 340px;
+    height: 380px;
+    border-radius: 5px;
+}
+
+.sec-card img{
+    width: 100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.sec-card .card-text{
+    padding: 0 35px;
+}
+
+
 
 footer{
     height: 150px;
