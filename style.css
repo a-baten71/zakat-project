@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    
+
+}
+
+h1{
+    font-size: 60px;
+    
+}
+
+p{
+    font-size: 20px;
+    margin: 20px 0;
+}
+
+.btn-link{
+    text-decoration: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 10px;
+    width: 150px;
+    text-align: center;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.baner{
+    max-width: 100%;
+    height: 600px;
+    background-image: url(/images/korbani-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.baner::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+.left{
+    width: 500px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    justify-content: center;
+    color: white;
+    
+}
+
+.baner-text h1, p, a{
+    z-index: 10;
+}
+
+
+.dflex{
+    width: 100%;
+    display: flex;
+    /* margin-top: 150px; */
+    /* margin-right: 200px; */
+
+}
+
+.padding-text{
+    padding: 50px 0;
+}
+
+.main-content .left h1, .needy h1{
+    color: black;
+}
+
+.main-content .left p, .needy p{
+    color: grey;
+}
+
+.right{
+    height: 450px;
+    width: 400px;
+    margin-left: 100px;
+}
+
+#main-content-video{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+}
+
+.needy{
+    color: black;
+}
+
+.direct-help{
+    margin-top: 150px;
+}
+
+.direct-help-container{
+    text-align: center;
+}
+
+.dgrid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 0 250px;
+    grid-gap: 20px;
+    
+}
+
+.card{
+    background-color: floralwhite;
+    display: flex;
+    padding: 35px;
+}
+
+.card-text{
+    padding-left: 35px;
+}
+
+/* .images{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 0 150px;
+    width: 100%;
+} */
+
+/* .image-container{
+    width: 
+    400px;
+} */
+
+.images{
+    width: 100%;
+    text-align: center;
+}
+
+.images img{
+    /* margin: 0 50px; */
+}
+
+.sec-img{
+    margin: 0 40px;
+    padding: 0 40px;
+}
+
+.donate-zakat{
+    text-align: center;
+}
+
+.sec-card-container{
+    display: flex;
+}
+
+footer{
+    height: 150px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+ 
