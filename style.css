@@ -13,6 +13,7 @@ section{
 
 h1{
     font-size: 60px;
+    color: white;
     
 }
 
@@ -24,6 +25,11 @@ h3{
     font-size: 30px;
 }
 
+h4{
+    font-size: 20px;
+    font-weight:900;
+}
+
 p{
     font-size: 20px;
     margin: 20px 0;
@@ -31,10 +37,6 @@ p{
 
 img{
     border-radius: 5px;
-}
-
- .card:hover{
-    box-shadow: 1p 1p 4px rgba(0, 0, 0, 0.4);
 }
 
 .btn-link{
@@ -65,11 +67,12 @@ img{
     background-size: cover;
     background-position: center;
     position: relative;
+   
 }
 
 .header-baner::after{
     content: "";
-    background-color: rgba(0, 0, 0, 0.4);
+    background-image: linear-gradient(90deg, rgba(5, 2, 2, 0.9), rgba(5, 1, 1, 0.0001) );
     top: 0;
     left: 0;
     bottom: 0;
@@ -78,30 +81,36 @@ img{
     z-index: 1;
 }
 
+
 .left{
-    width: 500px;
+    width: 450px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    margin-left: 200px;
     justify-content: center;
     color: white;
-    
 }
 
-.baner-text h1, p, a{
-    z-index: 10;
+.header-baner .left h1, p, a{
+    z-index: 1000;
+    color: white;
+}
+
+.header-baner .left{
+    margin-left: 250px;
+    width: 600px;
 }
 
 
 .dflex{
     width: 100%;
     display: flex;
+    justify-content: center;
 
 }
 
 .padding-text{
-    padding: 50px 0;
+    padding-top: 50px;
 }
 
 .main-content .left h2, .needy h2{
@@ -114,12 +123,13 @@ img{
 
 .right{
     height: 450px;
-    width: 400px;
+    width: 450px;
     margin-left: 100px;
+    text-align: left;
 }
 
 #main-content-video{
-    width: 100%;
+    width: 450px;
     height: 100%;
     border-radius: 5px;
 }
@@ -130,7 +140,7 @@ img{
 
 .left img{
     height: 450;
-    width: 400px;
+    width: 450px;
 }
 
 .direct-help .section-heading{
@@ -139,31 +149,29 @@ img{
 
 .section-heading{
     text-align: center;
-    /* width: 600px; */
     margin: 0 auto;
-
 }
 
 .donate-zakat .section-heading{
     width: 700px;
 }
 
-.dgrid{
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    margin: 0 300px;
-    grid-gap: 20px;
-    
-}
-
 .card{
     background-color: floralwhite;
     display: flex;
-    padding: 35px;
+    margin: 15px;
+    width: 380px;
+    padding: 25px;
+    transition: all 1s;
 }
 
 .card-text{
-    padding-left: 35px;
+    padding-left: 25px;
+}
+
+.card-text p{
+    width: inherit;
+    color: black;
 }
 
 .images{
@@ -246,8 +254,16 @@ footer h3{
     color: crimson;
 }
 
+footer p{
+    text-align: center;
+}
+
+.card:hover{
+    transition: all 1s;
+}
+
+.card:hover{
+    background-color: cyan;
+ }
 
 
-
-
- 
